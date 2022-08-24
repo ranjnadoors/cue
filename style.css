@@ -1,0 +1,346 @@
+html {
+  scroll-behavior: smooth;
+}
+body, html {
+  height: 100%;
+}
+#navbar {
+  background-color: #333;
+  position: fixed;
+  z-index: 99;
+  /* top: -55px; */
+  width: 100%;
+  display: block;
+  transition: top 0.8s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.swiper-container,
+.swiper-wrapper,
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide:nth-child(1) {
+  background: #fff;
+  height: 100vh;
+}
+.swiper-slide:nth-child(2) {
+  background: #FFE5D9;
+}
+.swiper-slide:nth-child(3) {
+  background: #fff;
+  height: 100vh;
+}
+.swiper-slide:nth-child(4) {
+  background: #FFD10D;
+  height: 100vh;
+}
+.swiper-slide:nth-child(5) {
+  background: #fff;
+  height: 100vh;
+}
+.swiper-slide:nth-child(6) {
+  background: #fff;
+  height: 100vh;
+}
+.swiper-slide:nth-child(7) {
+  background: #fff;
+  height: 50vh;
+}
+#home{
+  /* height: 100vh; */
+}
+#logo{
+  /* height: 100vh; */
+  background: White;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  
+}
+.text-warning{
+  color: #FFD10D;
+}
+.cue{
+  color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: 700;
+}
+#arrow{
+  color: #4278E8;
+  position: absolute;
+  right: 0;
+  top: 80%;
+  font-size: 50px;
+  font-weight: 300;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(90deg);
+ 
+}
+#arrow a{
+  text-decoration: none;
+  color: #4278E8;
+}
+
+.u{
+  margin-top: 40%;
+  font-size: 190px;
+}
+.e{
+  margin-top: 30%;
+  font-size: 190px;
+}
+@keyframes slideInTop {
+  0% {
+    transform: translatey(100%);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}
+.c{
+  color: #4278E8;
+  margin-top: 50%;
+  font-size: 190px;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInTop;
+ 
+}
+@keyframes slideInTop1 {
+  0% {
+    transform: translatey(100%);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}
+.u{
+  color: #4278E8;
+  margin-top: 40%;
+  font-size: 190px;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInTop1;
+  
+}
+@keyframes slideInTop2 {
+  0% {
+    transform: translatey(100%);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}
+.e{
+  color: #4278E8;
+  margin-top: 30%;
+  font-size: 190px;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInTop2;
+ 
+}
+.blue-box{
+  background-color: #4278E8;
+  height: 80vh;
+  width: 50vh;
+}
+.black-box{
+  background-color: black;
+  height: 75vh;
+  width: 45vh;
+}
+@keyframes slideInTop3 {
+  0% {
+    transform: translatey(300%);
+  }
+  100% {
+    transform: translatey(0%);
+  }
+}
+.black-box{
+   animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInTop3;
+
+}
+#swiper-slider3 h1{
+  font-size: 119px;
+  font-weight: 900;
+  font-family: monospace;
+}
+#swiper-slider4{
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes slideInleft{
+  0% {
+    transform: translatex(-100%);
+  }
+  100% {
+    transform: translatex(0%);
+  }
+}
+.blackbox-1{
+  background-color: #000;
+  height: 20vh;
+  width: 50vw;
+   animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInleft;
+}
+@keyframes slideInleft1 {
+  0% {
+    transform: translatex(-100%);
+  }
+  100% {
+    transform: translatex(0%);
+  }
+}
+.blackbox-2{
+  background-color: #4278E8;
+  height: 20vh;
+  width: 50vw;
+   animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInleft1;
+}
+@keyframes slideInleft2{
+  0% {
+    transform: translatex(-100%);
+  }
+  100% {
+    transform: translatex(0%);
+  }
+}
+.blackbox-3{
+  background-color: #4278E8;
+  height: 20vh;
+  width: 50vw;
+   animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInleft2;
+}
+@keyframes slideparaTop {
+  0% {
+    transform: translatey(100%);
+  }
+  100% {
+    transform: translatey(0%);
+  }
+}
+.box-2{
+  /* background-color: #4278E8;
+  height: 20vh;
+  width: 50vw; */
+   animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideup;
+}
+@keyframes slideup {
+  0% {
+    transform: translatey(100%);
+  }
+  100% {
+    transform: translatey(0%);
+  }
+}
+.first-para{
+   animation-duration: 2s;
+  animation-timing-function: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideparaTop;
+
+}
+.dis-btn{
+  background-color: #4278E8;
+  border: transparent;
+  border-radius: 20px;
+}
+#swiper-slider5 h2{
+  font-size: 75px;
+  font-weight: 600;
+  font-family: monospace;
+  letter-spacing: -5px;
+}
+
+.blackbox-4{
+  background-color: #000;
+  height: 50vh;
+  width: 50vw;
+  z-index: 999;
+  opacity: 1;
+}
+.update-text h2{
+  animation-duration: 2s;
+    animation-timing-function: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideh2right;
+    font-size: 75px;
+    font-weight: 600;
+    font-family: monospace;
+    letter-spacing: -5px;
+  }
+
+  @keyframes slideh2right {
+    0% {
+      transform: translatex(-100%);
+    }
+    100% {
+      transform: translatex(0%);
+    }
+  }
+  .footer{
+    background-color: aqua;
+  }
+  #swiper-slider6{
+    display: flex;
+    flex-direction: column;
+  }
