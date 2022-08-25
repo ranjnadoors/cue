@@ -17,7 +17,7 @@ window.addEventListener("keyup", playPreSlide);
 window.addEventListener("mousewheel", mousefun);
 
 
-document.getElementById("navbar").style.top = "-55px";
+document.getElementById("navbar").style.top = "-58px";
 
 
 function mousefun(e){
@@ -26,7 +26,7 @@ function mousefun(e){
   if (swiper.activeIndex != 0 ) {
       document.getElementById("navbar").style.top = "0";
   } else {
-      document.getElementById("navbar").style.top = "-55px";
+      document.getElementById("navbar").style.top = "-58px";
   }
   
  
@@ -42,7 +42,7 @@ function playNextSlide(e){
     if (swiper.activeIndex != 0) {
       document.getElementById("navbar").style.top = "0";
     } else {
-        document.getElementById("navbar").style.top = "-55px";
+        document.getElementById("navbar").style.top = "-58px";
     }
 
   }
@@ -58,7 +58,7 @@ function playPreSlide(e){
     if (swiper.activeIndex != 0 ) {
       document.getElementById("navbar").style.top = "0";
     } else {
-        document.getElementById("navbar").style.top = "-55px";
+        document.getElementById("navbar").style.top = "-58px";
     }
 
   }
