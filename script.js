@@ -85,6 +85,7 @@ function runAnmations(){
 }
 
 function onScroolArrow(){
+   runAnmations()
   swiper.slideNext();
   document.getElementById("navbar").style.top = "0";
 }
