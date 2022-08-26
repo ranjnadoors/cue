@@ -260,9 +260,10 @@ body, html {
   }
 }
 .blackbox-1{
-  background-image: url(../images/swim1.webp);
+  background-image: url(../images/swim3.jpg);
   height: 20vh;
   width: 50vw;
+  background-position: top;
    animation-duration: 3s;
   animation-timing-function: ease-out;
   animation-delay: 0s;
@@ -278,9 +279,10 @@ body, html {
   }
 }
 .blackbox-2{
-  background-image: url(../images/swim2.jpg);
+  background-image: url(../images/swim3.jpg);
   height: 20vh;
   width: 50vw;
+  background-position: center;
    animation-duration: 3s;
   animation-timing-function: ease-out;
   animation-delay: 0s;
@@ -299,6 +301,7 @@ body, html {
   background-image: url(../images/swim3.jpg);
   height: 20vh;
   width: 50vw;
+  background-position: bottom;
    animation-duration: 3s;
   animation-timing-function: ease-out;
   animation-delay: 0s;
