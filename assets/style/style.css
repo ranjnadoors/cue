@@ -127,14 +127,15 @@ body, html {
 #arrow a span{
   text-decoration: none;
   color: #4278E8;
- 
   animation-duration: 2s;
   animation-timing-function: ease-out;
   animation-delay: 0s;
   animation-iteration-count: 1;
   animation-name: slideInbottom;
 }
-
+#arrow a:hover{
+  text-decoration: none;
+}
 @keyframes slideInbottom {
   0% {
     transform: translatey(-150%);

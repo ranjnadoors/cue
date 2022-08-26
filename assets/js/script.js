@@ -64,6 +64,14 @@ function playPreSlide(e){
   }
 }
 
+function onScroolArrow(){
+  swiper.slideNext();
+  runAnmations()
+ 
+ document.getElementById("navbar").style.top = "0";
+}
+
+
 function runAnmations(){
   if(swiper.activeIndex == 1 ){
     $(".box").addClass("box-2");
@@ -84,9 +92,4 @@ function runAnmations(){
   }
 }
 
-function onScroolArrow(){
-   runAnmations()
-  swiper.slideNext();
-  document.getElementById("navbar").style.top = "0";
-}
 
