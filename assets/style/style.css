@@ -63,7 +63,12 @@ body, html {
   height: 100vh;
 }
 .swiper-slide:nth-child(2) {
-  background: #FFE5D9;
+  
+}
+#swiper-slider2{
+  /* background: url(../images/slide1.webp);
+  background-size: cover;
+  background-repeat: no-repeat; */
 }
 .swiper-slide:nth-child(3) {
   background: #fff;
@@ -209,9 +214,11 @@ body, html {
   width: 50vh;
 }
 .black-box{
-  background-color: black;
-  height: 75vh;
-  width: 45vh;
+  background: url(../images/pendrive1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 72vh;
+  width: 50vw;
 }
 @keyframes slideInTop3 {
   0% {
@@ -253,7 +260,7 @@ body, html {
   }
 }
 .blackbox-1{
-  background-color: #000;
+  background-image: url(../images/swim1.webp);
   height: 20vh;
   width: 50vw;
    animation-duration: 3s;
@@ -271,7 +278,7 @@ body, html {
   }
 }
 .blackbox-2{
-  background-color: #4278E8;
+  background-image: url(../images/swim2.jpg);
   height: 20vh;
   width: 50vw;
    animation-duration: 3s;
@@ -289,7 +296,7 @@ body, html {
   }
 }
 .blackbox-3{
-  background-color: #4278E8;
+  background-image: url(../images/swim3.jpg);
   height: 20vh;
   width: 50vw;
    animation-duration: 3s;
@@ -307,9 +314,9 @@ body, html {
   }
 }
 .box-2{
-  /* background-color: #4278E8;
-  height: 20vh;
-  width: 50vw; */
+ background-image: url(../images/slide1.webp);
+ background-size: cover;
+ background-repeat: no-repeat;
    animation-duration: 3s;
   animation-timing-function: ease-out;
   animation-delay: 0s;
@@ -347,7 +354,7 @@ body, html {
 }
 
 .blackbox-4{
-  background-color: #000;
+  /* background-color: #000; */
   height: 80vh;
   margin-top: 50px;
   width: 30vw;
@@ -401,10 +408,12 @@ body, html {
     background-color: #000;
   }
   .whitekbox{
-    background-color: #000;
-  height: 70vh;
-  
-  width: 30vw;
-  z-index: 999;
-  opacity: 1;
-  }
+    background-image: url(../images/get1.webp);
+    background-position-x: center;
+    /* background-position: left; */
+    background-position-y:bottom ;
+    height: 70vh;
+    width: 30vw;
+    z-index: 999;
+    opacity: 1;
+    }
