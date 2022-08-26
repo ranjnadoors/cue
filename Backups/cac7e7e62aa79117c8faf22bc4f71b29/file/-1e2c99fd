@@ -1,0 +1,306 @@
+file:///var/www/html/officework/Cue-1/index.html {"mtime":1661512336874,"ctime":1661345589313,"size":10743,"etag":"39989e63lb5h","orphaned":false,"typeId":""}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CUE</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css'>
+  <link rel="stylesheet" href="assets/style/style.css">
+  <!-- <link href="assets/bootstrap/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <Link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/fontawesome.min.css">
+  </Link>
+
+</head>
+
+<body>
+  <div class="container-fluid " id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light py-0">
+      <a class="navbar-brand text-bold" href="#">CUE</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active mx-3">
+            <a class="nav-link" href="#">About CUE <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">Our Product</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">Community</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">Subscribe</a>
+          </li>
+
+        </ul>
+        <div class="search"><a href=""><img src="assets/images/icons8-search.svg" class="h-50 w-50" alt=""></a></div>
+        <div class="search"><a href=""><img src="assets/images/icons8-bars-24.png" class="h-75 w-75" alt=""></a></div>
+
+      </div>
+    </nav>
+  </div>
+  <!-- partial:index.partial.html -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="row">
+
+          <h1 class="c">C</h1>
+          <h1 class="u">U</h1>
+          <h1 class="e">E</h1>
+
+        </div>
+        <div id="arrow">
+          <a href="javascript:void(0)" onclick="onScroolArrow()"> <span>&#10230;</span></a>
+        </div>
+      </div>
+      <div class="swiper-slide  box" id="swiper-slider2">
+        <div></div>
+      </div>
+      <div class="swiper-slide mx-3" id="swiper-slider3">
+        <div class="row">
+          <div class="col-lg-4 ">
+            <div class="blue-box py-4 px-4  d-flex justify-content-center mx-4" id="black-up">
+              <div class="rounded 
+               py-5"></div>
+            </div>
+          </div>
+          <div class="col-lg-4 my-md-5 my-3">
+            <p class="w-75 h-50 text-left">The vape you've been waiting for. Introducing Cue. Our sleek and powerful
+              device is
+              justone part
+              of a system that gives daily strategies and personal insights to get closer to your goals.
+            </p>
+            <h1 class="text-uppercase mt-3">Say hi</h1>
+          </div>
+          <div class="col-lg-4 mt-lg-5">
+            <h1 class="text-uppercase text-warning py-lg-5 my-lg-5">to cue</h1>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide" id="swiper-slider4">
+        <div class="row ">
+          <div class="col-md-4 ">
+            <p class=" pl-5 text-left">
+              Here at Cue, we believe the world would be a better place if everyone had the ways and means
+              to
+              make their goals a reality
+            </p>
+          </div>
+          <div class="col-md-8 py-4 d-flex justify-content-end">
+            <div class="rounded py-3 text-center blackox-ani-2">
+              <h1 class="py-4"></h1>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4 justify-content-center">
+          <div class=" rounded py-3 text-center blackox-ani-3">
+            <h1></h1>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-8 py-4">
+            <div class="rounded py-3 text-center blackox-ani-4">
+              <h1></h1>
+            </div>
+          </div>
+          <div class="col-md-4 py-4 text-left ">
+            <p class="w-75 h-50 px-3">With knowledge and curiosity. You can achieve powerful
+              personalchange.A
+              premium, satisfying and simple vaping experience.</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="swiper-slide px-4" id="swiper-slider5">
+        <div class="row mt-0 discover">
+          <div class="col-md-6 ">
+            <div class="w-50 rounded py-3 text-center">
+              <div><img src="assets/images/delivery.webp" class="img-fluid" alt=""></div>
+            </div>
+            <div class="mt-5  blackox-ani-5 text-left">
+              <div class="w-50 h-100">
+                <p>Start your journey of positive change. Anything is possible and Cue
+                  is
+                  with you every step of the way.</p>
+                <a href=""><button class="text-uppercase dis-btn py-2 px-3">Discover</button></a>
+              </div>
+              <div class=" mt-5 pt-5">
+                <h2 class="text-uppercase mt-3">Shall we Begin?</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-md-0 mt-5 pt-5">
+            <div class="blackox-ani-5">
+              <h2 class="text-uppercase mt-5">Ready when you are</h2>
+            </div>
+            <div class="w-100 rounded py-3 text-center" style="">
+              <div><img src="assets/images/deliver1.webp" class="img-fluid" alt=""></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide " id="swiper-slider6">
+        <div class="row mt-5 pt-5">
+          <div class="col-md-4">
+            <div class=" text-left blackbox-4">
+             <img src="assets/images/get1.webp" class="img-fluid" sty alt="">
+            </div>
+          </div>
+          <div class="col-md-8 mt-5  blackox-ani-6">
+            <div class="text-left mx-5 mt-5">
+
+              <h2 class="text-uppercase " style="color: #4278E8;">Get Exclusive <br>Offer</h2>
+            </div>
+            <div class="text-right pr-3 ">
+              <h2 class="text-uppercase mt-5 text-white">And Product Announcements</h2>
+              <a href="" class="blackox-ani-7"><button class="text-uppercase dis-btn py-2 my-2 px-3">Get
+                  updates</button></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-slide " id="swiper-slider7">
+        <div class="row ">
+          <div class="col-md-4">
+            <div class="text-left whitekbox">
+            
+            </div>
+          </div>
+          <div class="col-md-8 mt-5  blackox-ani-6">
+
+            <div class="text-right pr-3 ">
+              <h2 class="text-uppercase mt-5 text-white">And Product Announcements</h2>
+              <a href="" class="blackox-ani-7"><button class="text-uppercase dis-btn py-2 my-2 px-3">Get
+                  updates</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="row  px-2 py-4">
+            <div class="col-md-3">
+              <p class="px-2 py-2 text-left">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+                Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s,</p>
+            </div>
+            <div class="col-md-3">
+              <!-- Links -->
+              <!-- <h5 class="text-uppercase">Contact Us</h5> -->
+
+              <ul class="list-unstyled text-left">
+                <li>
+                  <a href="#!">Contact Us</a>
+                </li>
+                <li>
+                  <a href="#!">FAQ</a>
+                </li>
+                <li>
+                  <a href="#!">Retail & Wholesale</a>
+                </li>
+                <li>
+                  <a href="#!">Support</a>
+                </li>
+                <li>
+                  <a href="#!">30-Day M3G</a>
+                </li>
+                <li>
+                  <a href="#!">Warranty</a>
+                </li>
+              </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+              <!-- Links -->
+              <!-- <h5 class="text-uppercase">Shop</h5> -->
+
+              <ul class="list-unstyled text-left">
+                <li>
+                  <a href="#!">Shop</a>
+                </li>
+                <li>
+                  <a href="#!">CUE pods</a>
+                </li>
+                <li>
+                  <a href="#!">Devices</a>
+                </li>
+                <li>
+                  <a href="#!">Accessories</a>
+                </li>
+                <li>
+                  <a href="#!">CUE Device</a>
+                </li>
+                <li>
+                  <a href="#!">CUEpods</a>
+                </li>
+              </ul>
+
+            </div>
+
+            <div class="col-md-3">
+              <!-- <h5 class="text-uppercase">Links</h5> -->
+
+              <ul class="list-unstyled text-left">
+                <li>
+                  <a href="#!">CUE Video Resource</a>
+                </li>
+                <li>
+                  <a href="#!">Community</a>
+                </li>
+                <li>
+                  <a href="#!">CUE UK Tax Strategy</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js'></script>
+  <script src="assets/js/script.js"></script>
+  <!-- <script src="assets/bootstrap/js/bootstrap.bundle.js"></script> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" dc></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+<script>
+  $(document).ready(function () {
+
+    window.onscroll = function () { scrollFunction() };
+    function scrollFunction() {
+
+      //  if (document.documentElement.scrollTop > 450) {
+      //      console.log("hdn-->", document.documentElement.scrollTop)
+
+      //      document.getElementById("navbar").style.top = "0";
+      //  } else {
+      //      document.getElementById("navbar").style.top = "-55px";
+      //  }
+    }
+
+  })
+</script>
+
+</html>
