@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Coign-87Bold-Pro';
+  src: url(../font/Coign-87Bold-Pro.otf);
+}
+@font-face {
+  font-family: 'PPNeueal-BookeMontr';
+  src: url(../font/PPNeueMontreal-Book/PPNeueMontreal-Book.ttf);
+}
 html {
   scroll-behavior: smooth;
 }
@@ -17,9 +25,12 @@ body, html {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 .navbar-brand{
-  font-weight: 700;
+  font-weight: 700 !important;
+  font-family: 'Coign-87Bold-Pro' !important;
+  font-size: 30px !important;
 }
 #navbar a {
+  font-family: 'PPNeueal-BookeMontr';
   float: left;
   display: block;
   color: #4278E8;
@@ -105,6 +116,7 @@ body, html {
   color: #FFD10D;
 }
 .cue{
+  font-family:'Coign-87Bold-Pro';
   color: #4278E8;
   display: flex;
   justify-content: center;
@@ -144,14 +156,7 @@ body, html {
     transform: translatey(0);
   }
 }
-.u{
-  margin-top: 40%;
-  font-size: 190px;
-}
-.e{
-  margin-top: 30%;
-  font-size: 190px;
-}
+
 @keyframes slideInTop {
   0% {
     transform: translatey(150%);
@@ -161,9 +166,10 @@ body, html {
   }
 }
 .c{
+  font-family: 'Coign-87Bold-Pro';
   color: #4278E8;
   margin-top: 50%;
-  font-size: 190px;
+  font-size: 280px;
   animation-duration: 2.5s;
   animation-timing-function: ease-out;
   animation-delay: 0s;
@@ -180,9 +186,10 @@ body, html {
   }
 }
 .u{
+  font-family: 'Coign-87Bold-Pro';
   color: #4278E8;
   margin-top: 40%;
-  font-size: 190px;
+  font-size: 280px;
   animation-duration: 2.5s;
   animation-timing-function: ease-out;
   animation-delay: 0.1s;
@@ -199,9 +206,10 @@ body, html {
   }
 }
 .e{
+  font-family: 'Coign-87Bold-Pro';
   color: #4278E8;
   margin-top: 30%;
-  font-size: 190px;
+  font-size: 280px;
   animation-duration: 2.5s;
   animation-timing-function: ease-out;
   animation-delay: 0.2s;
@@ -238,9 +246,13 @@ body, html {
 
 }
 #swiper-slider3 h1{
-  font-size: 119px;
+  font-family: 'Coign-87Bold-Pro';
+  font-size: 250px;
   font-weight: 900;
-  font-family: monospace;
+
+}
+p{
+  font-family: 'PPNeueal-BookeMontr';  
 }
 #swiper-slider4{
   display: flex;
@@ -351,10 +363,10 @@ body, html {
 }
 
 #swiper-slider5 h2{
-  font-size: 70px;
+  font-size: 150px;
   font-weight: 600;
-  font-family: monospace;
-  letter-spacing: -5px;
+  font-family: 'Coign-87Bold-Pro';
+ 
 }
 
 .blackbox-4{
@@ -371,10 +383,11 @@ body, html {
     animation-delay: 0s;
     animation-iteration-count: 1;
     animation-name: slideh2right;
-    font-size: 85px;
+    font-size: 175px;
     font-weight: 600;
-    font-family: monospace;
-    letter-spacing: -5px;
+    line-height: 0.8;
+    font-family: 'Coign-87Bold-Pro';
+    
   }
 .update-text button{
   animation-duration: 3s;
@@ -400,6 +413,7 @@ body, html {
   }
   .footer a{
     color: #000;
+    font-family: 'PPNeueal-BookeMontr';
   }
   #swiper-slider6{
     display: flex;
